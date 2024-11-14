@@ -1,10 +1,20 @@
 import React from 'react';
+import Ivan from '../Images/Ivan.jpg';
+import './Home.css'
 
 const Home = () => {
     return (
         <div>
-            <h1>Добро пожаловать на главную страницу!</h1>
-            <p>Здесь будет информация о сайте.</p>
+            <div className="alfa-text">
+                <div className="text-home">
+                    <h1>Привет,это сай от 24Веб <br/>
+                        и скорее всего будет <br/>
+                        использоваться для локальных целей.</h1>
+                </div>
+                <div className="img">
+                    <img src={Ivan} alt=""/>
+                </div>
+            </div>
         </div>
     );
 };

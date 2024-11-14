@@ -1,0 +1,60 @@
+.alfa-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+    flex-wrap: wrap;
+}
+
+.alfa-text h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+.alfa-text img {
+    width: 700px;
+    border-radius: 20px;
+}
+
+/* Адаптивные стили для экранов шириной до 1024px (планшеты и небольшие ноутбуки) */
+@media (max-width: 1024px) {
+    .alfa-text h1 {
+        font-size: 20px;
+        margin-right: 50px;
+    }
+
+    .alfa-text img {
+        width: 500px;
+    }
+}
+
+/* Адаптивные стили для экранов шириной до 768px (планшеты) */
+@media (max-width: 768px) {
+    .alfa-text {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .alfa-text h1 {
+        font-size: 18px;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .alfa-text img {
+        width: 400px;
+    }
+}
+
+/* Адаптивные стили для экранов шириной до 480px (мобильные устройства) */
+@media (max-width: 480px) {
+    .alfa-text h1 {
+        font-size: 16px;
+    }
+
+    .alfa-text img {
+        width: 300px;
+    }
+}
