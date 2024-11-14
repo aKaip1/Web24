@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Web24/static/css/main.10771bea.css",
+    "main.js": "/Web24/static/js/main.f391d405.js",
+    "index.html": "/Web24/index.html",
+    "main.10771bea.css.map": "/Web24/static/css/main.10771bea.css.map",
+    "main.f391d405.js.map": "/Web24/static/js/main.f391d405.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.10771bea.css",
+    "static/js/main.f391d405.js"
+  ]
+}
