@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Web24/static/css/main.10771bea.css",
-    "main.js": "/Web24/static/js/main.f391d405.js",
+    "main.js": "/Web24/static/js/main.652c480d.js",
     "index.html": "/Web24/index.html",
     "main.10771bea.css.map": "/Web24/static/css/main.10771bea.css.map",
-    "main.f391d405.js.map": "/Web24/static/js/main.f391d405.js.map"
+    "main.652c480d.js.map": "/Web24/static/js/main.652c480d.js.map"
   },
   "entrypoints": [
     "static/css/main.10771bea.css",
-    "static/js/main.f391d405.js"
+    "static/js/main.652c480d.js"
   ]
 }
